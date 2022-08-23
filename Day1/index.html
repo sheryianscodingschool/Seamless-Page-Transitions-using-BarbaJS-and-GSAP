@@ -7,14 +7,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+<!-- Make body a wrapper -->
 <body data-barba="wrapper">
     <div id="main" data-barba="container" data-barba-namespace="home">
         <div id="nav">
             <div id="logo">Logo</div>
             <div id="part2">
-                <a href="/index.html">Home</a>
-                <a href="/about.html">About</a>
-                <a href="/contact.html">Contact</a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
             </div>
         </div>
         <div id="content">
@@ -26,3 +28,16 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+
+<!-- data-barba="wrapper"(Body)
+wrapper sabhi cheezo ko wrap krne ka kaam krta hai
+jo change hone vala hai use bhi
+jo change nahi hone vala use bhi
+
+data-barba="container"(main)
+jo jo cheeze change hone vali hai
+vo iske ander likhenge
+
+data-barba-namespace="home"(main)
+uniquiness deta hai -->
